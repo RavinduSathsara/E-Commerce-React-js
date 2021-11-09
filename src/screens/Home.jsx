@@ -7,7 +7,10 @@ const Home = () => {
       <header className="bg-dark py-5 mt-5">
         <div className="container px-4 px-lg-5 my-5">
           <div className="text-center text-white">
-            <h1 className="display-4 fw-bolder">Best Product </h1>
+            <h2 className="display-4 fw-bolder">
+              {" "}
+              Are you looking for Best Products !{" "}
+            </h2>
             <p className="lead fw-normal text-white-50 mb-0">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
               eaque blanditiis aut corporis officia vitae!
@@ -40,7 +43,7 @@ const Home = () => {
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div className="text-center">
                   <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -68,7 +71,7 @@ const Home = () => {
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div className="text-center">
                   <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -95,7 +98,7 @@ const Home = () => {
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div className="text-center">
                   <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -122,7 +125,7 @@ const Home = () => {
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div className="text-center">
                   <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -149,7 +152,7 @@ const Home = () => {
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div className="text-center">
                   <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -176,7 +179,7 @@ const Home = () => {
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div className="text-center">
                   <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -203,7 +206,7 @@ const Home = () => {
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div className="text-center">
                   <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -230,7 +233,7 @@ const Home = () => {
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div className="text-center">
                   <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -257,7 +260,7 @@ const Home = () => {
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div className="text-center">
                   <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -284,7 +287,7 @@ const Home = () => {
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div className="text-center">
                   <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
               </div>
@@ -311,115 +314,7 @@ const Home = () => {
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div className="text-center">
                   <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col mb-5">
-            <div className="card h-100">
-              {/* Product image */}
-              <img
-                className="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              {/* Product details */}
-              <div className="card-body p-4">
-                <div className="text-center">
-                  {/* Product name */}
-                  <h5 className="fw-bolder">Fancy Product</h5>
-                  {/* Product price */}
-                  $40.00 - $80.00
-                </div>
-              </div>
-              {/* Product actions--> */}
-              <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                <div className="text-center">
-                  <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col mb-5">
-            <div className="card h-100">
-              {/* Product image */}
-              <img
-                className="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              {/* Product details */}
-              <div className="card-body p-4">
-                <div className="text-center">
-                  {/* Product name */}
-                  <h5 className="fw-bolder">Fancy Product</h5>
-                  {/* Product price */}
-                  $40.00 - $80.00
-                </div>
-              </div>
-              {/* Product actions--> */}
-              <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                <div className="text-center">
-                  <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col mb-5">
-            <div className="card h-100">
-              {/* Product image */}
-              <img
-                className="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              {/* Product details */}
-              <div className="card-body p-4">
-                <div className="text-center">
-                  {/* Product name */}
-                  <h5 className="fw-bolder">Fancy Product</h5>
-                  {/* Product price */}
-                  $40.00 - $80.00
-                </div>
-              </div>
-              {/* Product actions--> */}
-              <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                <div className="text-center">
-                  <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col mb-5">
-            <div className="card h-100">
-              {/* Product image */}
-              <img
-                className="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              {/* Product details */}
-              <div className="card-body p-4">
-                <div className="text-center">
-                  {/* Product name */}
-                  <h5 className="fw-bolder">Fancy Product</h5>
-                  {/* Product price */}
-                  $40.00 - $80.00
-                </div>
-              </div>
-              {/* Product actions--> */}
-              <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                <div className="text-center">
-                  <a className="btn btn-outline-dark mt-auto" href="#">
-                    View options
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
               </div>
