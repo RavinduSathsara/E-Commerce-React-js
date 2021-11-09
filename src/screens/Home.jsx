@@ -1,5 +1,6 @@
 import React from "react";
 import ShoppingCart from "../components/ShoppingCart";
+import SpecialShoppingCart from "../components/SpecialShoppingCart";
 
 const Home = () => {
   return (
@@ -23,9 +24,7 @@ const Home = () => {
       <section className="py-5">
         <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
           <ShoppingCart />
-          <ShoppingCart /> <ShoppingCart /> <ShoppingCart /> <ShoppingCart />{" "}
-          <ShoppingCart /> <ShoppingCart /> <ShoppingCart /> <ShoppingCart />{" "}
-          <ShoppingCart />
+          <SpecialShoppingCart />
         </div>
       </section>
     </div>

@@ -16,8 +16,11 @@ const ShoppingCart = () => {
             <div className="text-center">
               {/* Product name */}
               <h5 className="fw-bolder">Fancy Product</h5>
+              <div class="d-flex justify-content-center small text-dark mb-2">
+                Lorem ipsum dolor, reiciendi
+              </div>
               {/* Product price */}
-              $40.00 - $80.00
+              $80.00
             </div>
           </div>
           {/* Product actions--> */}
