@@ -1,15 +1,11 @@
 import React from "react";
+import AppNavBar from "./components/AppNavBar";
 
 const App = () => {
   return (
     <div>
-      <h1>Hello World</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim
-        placeat, dolores repellendus voluptatem eius tempore dolorum voluptates
-        ratione distinctio beatae ipsum totam adipisci impedit expedita delectus
-        eligendi! Ipsa, officia.
-      </p>
+      <AppNavBar />
+      <div className="container bg-light"></div>
     </div>
   );
 };
