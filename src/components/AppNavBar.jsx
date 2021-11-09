@@ -41,7 +41,7 @@ const AppNavBar = () => {
                 <a class="nav-link disabled">
                   <a href="">
                     <i class="bi bi-cart  mx-2">
-                      <span class="badge bg-dark mx-1 ">1</span>
+                      <span class="badge bg-dark mx-1 ">2</span>
                     </i>
                   </a>
                 </a>
