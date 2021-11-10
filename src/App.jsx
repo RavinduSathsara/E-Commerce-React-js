@@ -1,10 +1,21 @@
 import React from "react";
+import { useState } from "react";
+
 import AppNavBar from "./components/AppNavBar";
 import Footer from "./components/Footer";
 import Home from "./screens/Home";
 import Bg from "./img/bg.jpg";
+import AppCart from "./screens/AppCart";
 
 const App = () => {
+  const [view, setview] = useState(null);
+  function setShowHome() {
+    setview(null);
+  }
+  function setShowCart() {
+    setview("Cart");
+  }
+
   return (
     <div
       style={{
@@ -14,9 +25,9 @@ const App = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <AppNavBar />
+      <AppNavBar setShowHome={setShowHome} setShowCart={setShowCart} />
       <div className="container bg-light">
-        <Home />
+        {view === null ? <Home /> : view === "Cart" ? <AppCart /> : <Home />}
       </div>
       {/* footer */}
       <Footer />
