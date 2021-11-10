@@ -21,23 +21,23 @@ const AppNavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+              <li className="nav-item m-1 ">
+                <button class="btn btn-outline-dark" type="submit">
                   Home
-                </a>
+                </button>
               </li>
 
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
+              <li className="nav-item m-1">
+                <button class="btn btn-outline-dark" type="submit">
+                  Featuer
+                </button>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
+              <li className="nav-item m-1">
+                <button class="btn btn-outline-dark" type="submit">
                   Pricing
-                </a>
+                </button>
               </li>
-              <li className="nav-item m-2 ">
+              <li className="nav-item m-1 ">
                 <button class="btn btn-outline-dark" type="submit">
                   <i class="bi-cart-fill me-1"></i>
                   Cart
