@@ -3,18 +3,23 @@ import React from "react";
 const ShoppingCart = (props) => {
   return (
     <div>
-      <div className="col mb-5">
-        <div className="card h-100">
+      <div className="col m-2 mt-3">
+        <div className="card h-100  ">
           {/* count badge- */}
           <div
-            class="badge bg-dark text-white position-absolute"
+            class="badge bg-dark text-warning position-absolute"
             style={{ top: "0.5rem", right: "0.5rem" }}
             // style="top: 0.5rem; right: 0.5rem"
           >
             {props.stockCount}
           </div>
           {/* Product image */}
-          <img className="card-img-top" src={props.image} alt="..." />
+          <img
+            style={{ width: `100%`, height: `30vh` }}
+            className="card-img-top "
+            src={props.image}
+            alt="..."
+          />
           {/* Product details */}
           <div className="card-body p-4">
             <div className="text-center">
