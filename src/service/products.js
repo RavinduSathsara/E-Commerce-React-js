@@ -5,15 +5,17 @@ export const stockData = [
     description: "TWTR",
     cost: "22.76 USD",
     stockCount: 10,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://images.unsplash.com/photo-1567521463850-4939134bcd4a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
   },
   {
     id: 2,
-    productName: " Samsung Washing Machine",
+    productName: " Washing Machine",
     description: "This product is nice ",
     cost: "17.76 USD",
     stockCount: 4,
-    image: "https://dummyimage.com/450x400/dee2e6/6c757d.jpg",
+    image:
+      "https://5.imimg.com/data5/LH/VC/MY-54253136/samsung-washing-machine-500x500.jpg",
   },
   {
     id: 3,
@@ -21,23 +23,24 @@ export const stockData = [
     description: "This product is nice ",
     cost: "17.76 USD",
     stockCount: 3,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image: "https://m.media-amazon.com/images/I/81sGUQYOnML._AC_SL1500_.jpg",
   },
   {
     id: 4,
-    productName: "Apple MacBook Air(2020)",
+    productName: "Apple MacBook",
     description: "This product is nice ",
     cost: "17.76 USD",
     stockCount: 2,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://www.techrepublic.com/a/hub/i/r/2021/10/18/c8ca4a7b-a264-42d3-8b0e-5243a3335b3d/thumbnail/770x578/eb8a22bdb3fc665f10f09a9db9983126/apple-macbook-pro-14-16-inch-10182021.jpg",
   },
   {
     id: 5,
-    productName: "MITSUBISHI Air Conditioner Invertor",
-    description: "This product is nice ",
+    productName: "Air Conditioner ",
+    description: "MITSUBISHI Invertor ",
     cost: "17.76 USD",
     stockCount: 6,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image: "https://jooinn.com/images/air-conditioner-5.jpg",
   },
   {
     id: 6,

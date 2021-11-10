@@ -3,7 +3,7 @@ import React from "react";
 const ShoppingCart = (props) => {
   return (
     <div>
-      <div className="col mb-5">
+      <div className="col m-2 mt-3">
         <div className="card h-100  ">
           {/* count badge- */}
           <div
@@ -16,7 +16,7 @@ const ShoppingCart = (props) => {
           {/* Product image */}
           <img
             style={{ width: `100%`, height: `30vh` }}
-            className="card-img-top"
+            className="card-img-top "
             src={props.image}
             alt="..."
           />
