@@ -1,0 +1,51 @@
+export const stockData = [
+  {
+    id: 1,
+    productName: "Dell Laptop",
+    description: "TWTR",
+    cost: "22.76 USD",
+    stockCount: 10,
+    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+  },
+  {
+    id: 2,
+    productName: "Washing machine",
+    description: "TWTR",
+    cost: "22.76 USD",
+    stockCount: 3,
+    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+  },
+  {
+    id: 3,
+    productName: "Hair cutter",
+    description: "TWTR",
+    cost: "22.76 USD",
+    stockCount: 3,
+    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+  },
+  {
+    id: 3,
+    productName: "Hair cutter",
+    description: "TWTR",
+    cost: "22.76 USD",
+    stockCount: 3,
+    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+  },
+  {
+    id: 3,
+    productName: "Hair cutter",
+    description: "TWTR",
+    cost: "22.76 USD",
+    stockCount: 3,
+    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+  },
+  {
+    id: 3,
+    productName: "Hair cutter",
+    description: "TWTR",
+    cost: "22.76 USD",
+    stockCount: 3,
+    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+  },
+];
+export default stockData;

@@ -1,26 +1,30 @@
 import React from "react";
 
-const ShoppingCart = () => {
+const ShoppingCart = (props) => {
   return (
     <div>
       <div className="col mb-5">
         <div className="card h-100">
+          {/* count badge- */}
+          <div
+            class="badge bg-dark text-white position-absolute"
+            style={{ top: "0.5rem", right: "0.5rem" }}
+            // style="top: 0.5rem; right: 0.5rem"
+          >
+            {props.stockCount}
+          </div>
           {/* Product image */}
-          <img
-            className="card-img-top"
-            src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-            alt="..."
-          />
+          <img className="card-img-top" src={props.image} alt="..." />
           {/* Product details */}
           <div className="card-body p-4">
             <div className="text-center">
               {/* Product name */}
-              <h5 className="fw-bolder">Fancy Product</h5>
+              <h5 className="fw-bolder">{props.itemName}</h5>
               <div class="d-flex justify-content-center small text-dark mb-2">
-                Lorem ipsum dolor, reiciendi
+                {props.description}
               </div>
               {/* Product price */}
-              $80.00
+              {props.cost}
             </div>
           </div>
           {/* Product actions--> */}
@@ -33,7 +37,6 @@ const ShoppingCart = () => {
           </div>
         </div>
       </div>
-      {/*  */}
     </div>
   );
 };

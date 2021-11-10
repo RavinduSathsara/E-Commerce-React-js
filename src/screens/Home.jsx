@@ -1,4 +1,6 @@
 import React from "react";
+import Product from "../service/products";
+
 import ShoppingCart from "../components/ShoppingCart";
 import SpecialShoppingCart from "../components/SpecialShoppingCart";
 
@@ -22,11 +24,24 @@ const Home = () => {
       </header>
       {/* body content */}
       <section className="py-5">
-        <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-          <ShoppingCart />
+        <ul>
+          <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            {Product.map((item) => (
+              <ShoppingCart
+                itemId={item.id}
+                itemName={item.productName}
+                description={item.description}
+                cost={item.cost}
+                stockCount={item.stockCount}
+                image={item.image}
+              />
+            ))}
+
+            {/* <ShoppingCart />
           <SpecialShoppingCart />
-          <SpecialShoppingCart />
-        </div>
+          <SpecialShoppingCart /> */}
+          </div>
+        </ul>
       </section>
     </div>
   );
