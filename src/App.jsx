@@ -4,7 +4,7 @@ import { useState } from "react";
 import AppNavBar from "./components/AppNavBar";
 import Footer from "./components/Footer";
 import Home from "./screens/Home";
-import Bg from "./img/bg.jpg";
+
 import AppCart from "./screens/AppCart";
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div
       style={{
-        backgroundImage: `url(${Bg}`,
+        backgroundColor: "white",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",

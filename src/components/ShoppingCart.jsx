@@ -20,13 +20,11 @@ const ShoppingCart = (props) => {
             style={{ top: "0.5rem", right: "0.5rem" }}
             // style="top: 0.5rem; right: 0.5rem"
           >
-            {props.stockCount + count <= 0
-              ? "Our Stock"
-              : props.stockCount + count}
+            {props.stockCount + count <= 0 ? "Sold Out" : ""}
           </div>
           {/* Product image */}
           <img
-            style={{ width: `100%`, height: `20vh` }}
+            style={{ width: `100%`, height: `25vh` }}
             className="card-img-top "
             src={props.image}
             alt="..."

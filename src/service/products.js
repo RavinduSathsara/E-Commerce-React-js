@@ -6,7 +6,7 @@ export const stockData = [
     cost: "22.76 USD",
     stockCount: 10,
     image:
-      "https://images.unsplash.com/photo-1567521463850-4939134bcd4a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnfGHv2W17FL5QHG3o60HO3ckFPIBm3ieIQqYVCUcekFjgZxPWtKG_g_Hvf4sq7K1-dhU&usqp=CAU",
   },
   {
     id: 2,
@@ -48,15 +48,17 @@ export const stockData = [
     description: "This product is nice ",
     cost: "17.76 USD",
     stockCount: 4,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://azcd.harveynorman.com.au/media/catalog/product/v/i/vivo-y11s-phantom-hero.jpg",
   },
   {
     id: 7,
-    productName: "Westinghouse Blender 1.5L",
-    description: "This product is nice ",
+    productName: "Westinghouse ",
+    description: "Blender 1.5L",
     cost: "17.76 USD",
     stockCount: 5,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://i5.walmartimages.com/asr/9aa82556-557d-4119-8de2-e5badc03255b.fbcb00ceb56543534e363eb0ede054c1.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
   },
   {
     id: 8,
@@ -64,7 +66,8 @@ export const stockData = [
     description: "This product is nice ",
     cost: "17.76 USD",
     stockCount: 4,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnfGHv2W17FL5QHG3o60HO3ckFPIBm3ieIQqYVCUcekFjgZxPWtKG_g_Hvf4sq7K1-dhU&usqp=CAU",
   },
   {
     id: 9,
@@ -72,39 +75,43 @@ export const stockData = [
     description: "This product is nice ",
     cost: "17.76 USD",
     stockCount: 8,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnfGHv2W17FL5QHG3o60HO3ckFPIBm3ieIQqYVCUcekFjgZxPWtKG_g_Hvf4sq7K1-dhU&usqp=CAU",
   },
   {
     id: 10,
-    productName: "LG Smart Inverter Refrigerator",
-    description: "This product is nice ",
+    productName: "LG Smart ",
+    description: "Inverter Refrigerator",
     cost: "17.76 USD",
     stockCount: 10,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://klivago.com/media/image/product/2124/md/lg-air-conditioner-r32-wall-unit-deluxe-dc12rq-35-kw-i-12000-btu.jpg",
   },
   {
     id: 11,
-    productName: "iPhone 13 Mini -256GB",
-    description: "This product is nice ",
+    productName: "iPhone 13 ",
+    description: "Mini -256GB ",
     cost: "17.76 USD",
     stockCount: 4,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1629842667000",
   },
   {
     id: 12,
-    productName: "iPhone 13 Pro Max-256GB",
-    description: "This product is nice ",
+    productName: "iPhone 13 Pro ",
+    description: "Max-256GB ",
     cost: "17.76 USD",
     stockCount: 2,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-gallery-2-thumb_GEO_US?wid=282&hei=240&fmt=jpeg&qlt=80&.v=1631658248000",
   },
   {
     id: 13,
-    productName: "SAMSUNG GALAXY M32",
-    description: "This product is nice ",
+    productName: "SAMSUNG ",
+    description: "GALAXY M32 ",
     cost: "17.76 USD",
     stockCount: 5,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image: "https://m.media-amazon.com/images/I/71QT7dSK4BL._SY606_.jpg",
   },
   {
     id: 14,
@@ -112,23 +119,26 @@ export const stockData = [
     description: "This product is nice ",
     cost: "17.76 USD",
     stockCount: 4,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://www.singersl.com/sites/default/files/images/products/2021-05/SIN_SWM-FA70R-01_zoom.jpg",
   },
   {
     id: 15,
-    productName: "SAMSUNG HD LED Tv 32",
-    description: "This product is nice ",
+    productName: "SAMSUNG ",
+    description: "HD LED Tv 32 ",
     cost: "17.76 USD",
     stockCount: 4,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://dinapalagroup.lk/wp-content/uploads/2021/03/Untitled-design-2021-03-20T125416.270.png",
   },
   {
     id: 16,
-    productName: "Abans Mini Hifi System",
-    description: "This product is nice ",
+    productName: "Abans Mini ",
+    description: "Hifi System ",
     cost: "17.76 USD",
     stockCount: 7,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image:
+      "https://cdn.shopify.com/s/files/1/0512/4793/9793/products/abans_mini_hifi_system_top_800x.png?v=1629265944",
   },
   {
     id: 17,
@@ -136,7 +146,7 @@ export const stockData = [
     description: "This product is nice ",
     cost: "17.76 USD",
     stockCount: 4,
-    image: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
+    image: "https://johnlewis.scene7.com/is/image/JohnLewis/238920274",
   },
 ];
 export default stockData;
