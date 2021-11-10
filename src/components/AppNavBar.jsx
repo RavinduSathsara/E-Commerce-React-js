@@ -1,6 +1,6 @@
 import React from "react";
 
-const AppNavBar = () => {
+const AppNavBar = (props) => {
   return (
     <div className="font-weight-bold">
       <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top ">
@@ -21,29 +21,35 @@ const AppNavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+              <li className="nav-item m-1 ">
+                <button
+                  onClick={props.setShowHome}
+                  className="btn btn-outline-dark"
+                  type="submit"
+                >
                   Home
-                </a>
+                </button>
               </li>
 
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
+              <li className="nav-item m-1">
+                <button className="btn btn-outline-dark" type="submit">
+                  Featuer
+                </button>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
+              <li className="nav-item m-1">
+                <button className="btn btn-outline-dark" type="submit">
                   Pricing
-                </a>
+                </button>
               </li>
-              <li className="nav-item m-2 ">
-                <button class="btn btn-outline-dark" type="submit">
-                  <i class="bi-cart-fill me-1"></i>
+              <li className="nav-item m-1 ">
+                <button
+                  className="btn btn-outline-dark"
+                  onClick={props.setShowCart}
+                  type="submit"
+                >
+                  <i className="bi-cart-fill me-1"></i>
                   Cart
-                  <span class="badge bg-dark text-white ms-1 rounded-pill">
-                    0
-                  </span>
+                  <span className="badge bg-dark text-white ms-1 rounded-pill"></span>
                 </button>
               </li>
             </ul>

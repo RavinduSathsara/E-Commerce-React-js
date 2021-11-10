@@ -3,11 +3,11 @@ import React from "react";
 const SpecialShoppingCart = () => {
   return (
     <div>
-      <div class="col mb-5">
-        <div class="card h-100">
+      <div className="col mb-5">
+        <div className="card h-100">
           {/* Sale badge- */}
           <div
-            class="badge bg-dark text-white position-absolute"
+            className="badge bg-dark text-white position-absolute"
             style={{ top: "0.5rem", right: "0.5rem" }}
             // style="top: 0.5rem; right: 0.5rem"
           >
@@ -15,35 +15,35 @@ const SpecialShoppingCart = () => {
           </div>
           {/* <!-- Product image */}
           <img
-            class="card-img-top"
+            className="card-img-top"
             src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
             alt="..."
           />
           {/* Product details */}
-          <div class="card-body p-4">
-            <div class="text-center">
+          <div className="card-body p-4">
+            <div className="text-center">
               {/* Product name */}
-              <h5 class="fw-bolder">Special Item</h5>
+              <h5 className="fw-bolder">Special Item</h5>
               {/* <!-- Product reviews--> */}
-              <div class="d-flex justify-content-center small text-warning mb-2">
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
-                <div class="bi-star-fill"></div>
+              <div className="d-flex justify-content-center small text-warning mb-2">
+                <div className="bi-star-fill"></div>
+                <div className="bi-star-fill"></div>
+                <div className="bi-star-fill"></div>
+                <div className="bi-star-fill"></div>
+                <div className="bi-star-fill"></div>
               </div>
               {/* <!-- Product price--> */}
-              <span class="text-muted text-decoration-line-through">
+              <span className="text-muted text-decoration-line-through">
                 $20.00
               </span>
               $18.00
             </div>
           </div>
           {/* <!-- Product actions--> */}
-          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-            <div class="text-center">
+          <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div className="text-center">
               <a className="btn btn-outline-dark mt-auto" href="#">
-                <i class="bi bi-cart-plus"></i>
+                <i className="bi bi-cart-plus"></i>
               </a>
             </div>
           </div>
