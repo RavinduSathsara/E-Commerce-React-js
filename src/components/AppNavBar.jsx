@@ -6,7 +6,7 @@ const AppNavBar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top ">
         <div className="container">
           <a className="navbar-brand " href="#">
-            E - Commerce
+            E-Commerce
           </a>
           <button
             className="navbar-toggler"
