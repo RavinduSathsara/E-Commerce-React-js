@@ -4,10 +4,10 @@ const ShoppingCart = (props) => {
   return (
     <div>
       <div className="col mb-5">
-        <div className="card h-100 ">
+        <div className="card h-100  ">
           {/* count badge- */}
           <div
-            class="badge bg-dark text-white position-absolute"
+            class="badge bg-dark text-warning position-absolute"
             style={{ top: "0.5rem", right: "0.5rem" }}
             // style="top: 0.5rem; right: 0.5rem"
           >
