@@ -3,19 +3,30 @@ import Product from "../service/products";
 
 import ShoppingCart from "../components/ShoppingCart";
 import SpecialShoppingCart from "../components/SpecialShoppingCart";
+import CartBg from "../img/HomeBg.jpg";
+import cover from "../img/cover.jpg";
 
 const Home = () => {
   return (
     <div>
       {/* home Header */}
-      <header className="bg-dark py-5 mt-5">
-        <div className="container px-4 px-lg-5 my-5">
-          <div className="text-center text-white">
+      <header
+        style={{
+          backgroundImage: `url(${CartBg}`,
+
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="bg-dark py-5 mt-5 "
+      >
+        <div className="container px-4 px-lg-5 my-5 text-white">
+          <div className="text-center bg-image p-5 text-center shadow-1-strong rounded mb-5 ">
             <h2 className="display-4 fw-bolder">
               {" "}
               Are you looking for Best Products !{" "}
             </h2>
-            <p className="lead fw-normal text-white-50 mb-0">
+            <p className="lead fw-normal text-white-50 mb-0 ">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
               eaque blanditiis aut corporis officia vitae!
             </p>
@@ -23,7 +34,15 @@ const Home = () => {
         </div>
       </header>
       {/* body content */}
-      <section className="py-5">
+      <section
+        style={{
+          backgroundImage: `url(${cover}`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="py-5"
+      >
         <ul>
           <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
             {Product.map((item) => (
