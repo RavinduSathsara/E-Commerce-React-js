@@ -4,7 +4,7 @@ export const stockData = [
     productName: "Dell Laptop",
     description: "TWTR",
     cost: "22.76 USD",
-    stockCount: 10,
+    stockCount: 2,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnfGHv2W17FL5QHG3o60HO3ckFPIBm3ieIQqYVCUcekFjgZxPWtKG_g_Hvf4sq7K1-dhU&usqp=CAU",
   },

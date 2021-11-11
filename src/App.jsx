@@ -7,7 +7,7 @@ import Home from "./screens/Home";
 
 import AppCart from "./screens/AppCart";
 
-const App = () => {
+const App = (props) => {
   const [view, setview] = useState(null);
   function setShowHome() {
     setview(null);

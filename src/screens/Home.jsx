@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Product from "../service/products";
 
 import ShoppingCart from "../components/ShoppingCart";
@@ -6,7 +6,8 @@ import SpecialShoppingCart from "../components/SpecialShoppingCart";
 import CartBg from "../img/HomeBg.jpg";
 import cover from "../img/cover.jpg";
 
-const Home = () => {
+const Home = (props) => {
+  const [product, searchProduct] = useState("");
   return (
     <div>
       {/* home Header */}
@@ -43,6 +44,24 @@ const Home = () => {
         }}
         className="py-5"
       >
+        <div className="container">
+          {/* Search Box */}
+          <form class="form-inline">
+            <div class="form-group mx-sm-3 mb-2 col-3 ">
+              <input
+                onChange={(e) => searchProduct(e.target.value)}
+                type="text"
+                class="form-control"
+                name=""
+                id=""
+                placeholder="Search product"
+              />
+            </div>
+            <div class="alert alert-primary col-4 m-3 " role="alert">
+              {product === "" ? "All products ..." : ` Result for ${product}`}
+            </div>
+          </form>
+        </div>
         <ul>
           <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
             {Product.map((item) => (
