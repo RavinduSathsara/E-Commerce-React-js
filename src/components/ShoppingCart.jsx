@@ -24,6 +24,7 @@ const ShoppingCart = (props) => {
           </div>
           {/* Product image */}
           <img
+            onClick={() => alert(props.itemName)}
             style={{ width: `100%`, height: `25vh` }}
             className="card-img-top "
             src={props.image}
