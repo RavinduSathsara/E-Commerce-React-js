@@ -6,16 +6,8 @@ import SpecialShoppingCart from "../components/SpecialShoppingCart";
 import CartBg from "../img/HomeBg.jpg";
 import cover from "../img/cover.jpg";
 
-const Home = (props, { getQuery }) => {
+const Home = (props) => {
   const [product, searchProduct] = useState("");
-  const [text, setText] = useState("");
-  const [query, setQuery] = useState("");
-
-  const onChange = (q) => {
-    setText(q);
-    getQuery(q);
-  };
-
   return (
     <div>
       {/* home Header */}
@@ -57,10 +49,8 @@ const Home = (props, { getQuery }) => {
           <form class="form-inline">
             <div class="form-group mx-sm-3 mb-2 col-3 ">
               <input
-                onChange={(e) => onChange(e.target.value)}
-                autoFocus
+                onChange={(e) => searchProduct(e.target.value)}
                 type="text"
-                value={text}
                 class="form-control"
                 name=""
                 id=""
@@ -75,31 +65,15 @@ const Home = (props, { getQuery }) => {
         <ul>
           <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
             {Product.map((item) => (
-              // <CharacterItem key={item.char_id} item={item}></CharacterItem>
               <ShoppingCart
-                value={text}
                 itemId={item.id}
                 itemName={item.productName}
                 description={item.description}
                 cost={item.cost}
                 stockCount={item.stockCount}
                 image={item.image}
-                key={item.id}
-                item={item}
               />
             ))}
-
-            {/* {Product.map((item) => (
-              <ShoppingCart
-                value={text}
-                itemId={item.id}
-                itemName={item.productName}
-                description={item.description}
-                cost={item.cost}
-                stockCount={item.stockCount}
-                image={item.image}
-              />
-            ))} */}
 
             {/* <ShoppingCart />
           <SpecialShoppingCart />

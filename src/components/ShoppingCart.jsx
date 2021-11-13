@@ -12,7 +12,7 @@ const ShoppingCart = (props) => {
 
   return (
     <div>
-      <div className="col m-2 mt-3">
+      <div className="col m-2 mt-3" onClick={() => alert(props.itemName)}>
         <div className="card h-100  ">
           {/* count badge- */}
           <div
