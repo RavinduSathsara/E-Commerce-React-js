@@ -7,4 +7,13 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "./index.css";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+//redux
+import { Provider } from "react-redux";
+import store from "./redux/store";
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
